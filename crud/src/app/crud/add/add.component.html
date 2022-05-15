@@ -1,0 +1,31 @@
+<p>add works!</p>
+<div class="w-50 container">
+  <form [formGroup] = "userInput" (ngSubmit) = "onSendUsserData()">
+      <div  class="form-group">
+        <label for="exampleInputEmail1">first name</label>
+        <input formControlName="firstname" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="enter data">
+      </div>
+  
+      <div class="form-group">
+        <label for="exampleInputPassword1">last name</label>
+        <input formControlName="lastname" type="text" class="form-control" id="exampleInputPassword1" placeholder="enter data">
+      </div>
+     
+      <div class="form-group">
+          <label for="exampleInputPassword1">email</label>
+          <input formControlName="email" type="text" class="form-control" id="exampleInputPassword1" placeholder="enter data">
+        </div>
+  
+        <div class="form-group">
+          <label for="exampleInputPassword1">Mobile</label>
+          <input formControlName="mobile" type="text" class="form-control" id="exampleInputPassword1" placeholder="enter data">
+        </div>
+  
+        <div class="form-group">
+          <label for="exampleInputPassword1">Salary</label>
+          <input formControlName="salary" type="text" class="form-control" id="exampleInputPassword1" placeholder="enter data">
+        </div>
+        
+      <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>

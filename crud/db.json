@@ -1,0 +1,52 @@
+{
+  "posts": [
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "firstname": "c",
+      "lastname": "c",
+      "email": "c",
+      "mobile": "c",
+      "salary": "c",
+      "id": 3
+    },
+    {
+      "firstname": "a",
+      "lastname": "a",
+      "id": 4
+    },
+    {
+      "firstname": "a",
+      "lastname": "a",
+      "id": 5
+    },
+    {
+      "firstname": "a1",
+      "lastname": "a1",
+      "id": 6
+    },
+    {
+      "firstname": "svd",
+      "lastname": "sdsd",
+      "id": 7
+    },
+    {
+      "firstname": "bhavesh",
+      "lastname": "gupta",
+      "id": 8
+    },
+    {
+      "firstname": "happpuyy",
+      "lastname": "gupta",
+      "id": 9
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

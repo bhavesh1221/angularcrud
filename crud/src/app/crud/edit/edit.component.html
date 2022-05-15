@@ -1,0 +1,24 @@
+<p>edit works!</p>
+<div class="w-50 conatiner" *ngIf="pass">
+  <!-- <form [formGroup] = "formData" (ngSubmit)="onUpdateUser">
+    <label for="">firstname</label>
+  <input type="text" formControlName="firstname">
+  <label for="">lastname</label>
+  <br>
+  <input type="text" formControlName="lastname">
+  <button type="submit">submit</button>
+   
+  </form> -->
+  <form [formGroup] = "formData" (ngSubmit)="onUpdateUser()">
+    <div class="form-group">
+      <label for="exampleInputEmail1">Email address</label>
+      <input formControlName="firstname" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    </div>
+    <div class="form-group">
+      <label  for="exampleInputPassword1">Password</label>
+      <input formControlName="lastname" type="text" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    </div>
+   
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>

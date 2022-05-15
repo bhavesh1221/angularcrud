@@ -1,0 +1,15 @@
+<p>reactiveform works!</p>
+<div *ngIf="true" class="row container">
+    <form class="col-6" [formGroup]="formData" (ngSubmit)="collectData()">
+        <div class="form-group">
+          <label  for="exampleInputEmail1">enter first name</label>
+          <input formControlName="firstname" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="enter your details">
+        </div>
+        <div class="form-group">
+          <label  for="exampleInputPassword1">enter last name</label>
+          <input formControlName="lastname" type="text" class="form-control" id="exampleInputPassword1" placeholder="enter your details">
+        </div>
+     
+        <button  type="submit" class="btn btn-primary">Submit</button>
+      </form>
+</div>

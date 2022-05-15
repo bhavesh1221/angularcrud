@@ -1,0 +1,17 @@
+<p>list works!</p>
+<div class="container-fluid">
+    <ul>
+      <li *ngFor="let list of listUsers; let i = index" class="d-flex justify-content-between mt-2"> 
+      <h3 class="mr-3">{{list.id }} </h3>  <h3> {{ list.firstname}} </h3>
+      <button class="btn btn-grey">
+          <a [routerLink] = "['/view', list.id]">Read</a>
+      </button>
+
+      <button class="btn btn-warning">
+      <a [routerLink] = "['/edit', list.id]">Update</a>
+      </button>
+
+      <button class="btn btn-danger" (click)="onCross(list.id)">Delete</button>
+      </li>
+    </ul>
+</div>
